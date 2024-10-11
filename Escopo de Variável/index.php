@@ -12,6 +12,7 @@ function nome_2(){
     
     $nome = "João"; // Não interfere na variável global fora da função caso ela não tenha sido chamada
     echo $nome." Nome 2";
+    
 };
 
 nome_1();
